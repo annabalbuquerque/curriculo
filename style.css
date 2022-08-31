@@ -1,0 +1,104 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: 'IM Fell French Canon', serif;
+}
+
+body{
+    background-color: #cfb499;
+}
+
+.retangulo {
+    padding: 5px 0;
+    background-color: #45131e;
+}
+
+.apresentacao {
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    padding: 30px 0;
+    background-color: #58202c;
+
+}
+
+.apresentacao p {
+    font-size: 30px;
+    text-align: center;
+    color: #c58a7e;
+}
+
+h2 {
+    font-size: 20px;
+    text-align: center;
+    color: #cfb499;
+    padding-block-end: 7%;
+}
+
+.perfil {
+    position: absolute;
+    width: 250px;
+    margin-left: 41%;
+    margin-top: 1.5%;
+}
+
+.bio {
+    background-color: #debfbb;
+    margin: 0 180px 0;
+}
+
+.bio p {
+    color: #45131e;
+    border: #58202c 2px solid;
+    padding: 210px 80px 30px;
+    text-align: center;
+}
+
+.bio a {
+    color: #cfb499;
+    font-size: 20px;
+    display: flex; 
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    text-align: center;
+    background-color: #45131e;
+    box-sizing: border-box;
+	border: 2px solid #58202c;
+}
+
+.vercv:hover {
+    color: #c58a7e;
+    background-color: #58202c;
+    box-sizing: border-box;
+	border: 2px solid #58202c;
+    border-radius: 5px;
+}
+
+.contato {
+    margin: 0 180px 0;
+    background-color: #d5beba ;
+    text-align: center;
+    border: #58202c 2px solid;
+}
+
+.contato img {
+    position: relative;
+    max-width: 125px;
+    padding: 15px 18px 15px 30px;
+    transition: transform .6s;
+}
+
+.contato img:hover {
+    transform: scale(1.2);
+}
+
+footer p {
+    color: #c58a7e;
+    text-align: center;
+    font-size: 15px;
+    font-weight: bold;
+    background-color: #58202c;
+}

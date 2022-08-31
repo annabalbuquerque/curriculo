@@ -1,0 +1,1 @@
+Olá, neste projeto está presente um pequeno resumo sobre o meu objetivo profissional e também o meu currículo completo!
